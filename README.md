@@ -1,4 +1,4 @@
-# YUSAOPENY fast and simple demo app
+# YUSAOPENY simple demo app
 
 ## How to build the base docker image
 
