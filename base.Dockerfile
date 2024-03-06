@@ -12,7 +12,7 @@ RUN echo "memory_limit = $PHP_MEMORY_LIMIT" >> /usr/local/etc/php/conf.d/memory_
 WORKDIR /opt
 RUN rm -rf /opt/drupal && mkdir /opt/drupal && unlink /var/www/html
 
-ENV OPENY_PROJECT_VERSION 3.2.3
+ARG OPENY_PROJECT_VERSION 3.2.3
 WORKDIR /opt/drupal
 
 RUN set -eux; \
